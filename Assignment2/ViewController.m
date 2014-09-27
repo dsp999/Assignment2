@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "RandomObjectFactory.h"
 
 @interface ViewController ()
 
@@ -25,5 +26,26 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+-(IBAction)pressMe:(id)sender
+{
+    id aObj =  [RandomObjectFactory randomNSObject];
+    if([aObj isKindOfClass:[UIView class]])
+    {
+        UIView *myView =(UIView*) aObj;
+        if([myView respondsToSelector:@selector(backgroundColor)])
+        {
+            CGFloat red = (CGFloat)random()/(CGFloat)RAND_MAX;
+            CGFloat blue = (CGFloat)random()/(CGFloat)RAND_MAX;
+            CGFloat green = (CGFloat)random()/(CGFloat)RAND_MAX;
+            UIColor *randomColor = [UIColor colorWithRed:red green:blue blue:green alpha:1];
+            myView.backgroundColor = randomColor;
+            [self.view addSubview:myView];
+        }
+    }
+}
+
+
 
 @end

@@ -23,6 +23,8 @@
 		18C8C2C617DDBA23006A7EF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C8C2A117DDBA23006A7EF5 /* Foundation.framework */; };
 		18C8C2CE17DDBA23006A7EF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18C8C2CC17DDBA23006A7EF5 /* InfoPlist.strings */; };
 		18C8C2D117DDBA23006A7EF5 /* Assignment2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C8C2D017DDBA23006A7EF5 /* Assignment2Tests.m */; };
+		18C8C2DC17DDC3FB006A7EF5 /* RandomObjectFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C8C2DB17DDC3FB006A7EF5 /* RandomObjectFactory.m */; };
+		18C8C2DD17DDC3FB006A7EF5 /* RandomObjectFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C8C2DB17DDC3FB006A7EF5 /* RandomObjectFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		18C8C2CD17DDBA23006A7EF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18C8C2CF17DDBA23006A7EF5 /* Assignment2Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Assignment2Tests.h; sourceTree = "<group>"; };
 		18C8C2D017DDBA23006A7EF5 /* Assignment2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assignment2Tests.m; sourceTree = "<group>"; };
+		18C8C2DA17DDC3FB006A7EF5 /* RandomObjectFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomObjectFactory.h; sourceTree = "<group>"; };
+		18C8C2DB17DDC3FB006A7EF5 /* RandomObjectFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomObjectFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,8 @@
 			children = (
 				18C8C2AE17DDBA23006A7EF5 /* AppDelegate.h */,
 				18C8C2AF17DDBA23006A7EF5 /* AppDelegate.m */,
+				18C8C2DA17DDC3FB006A7EF5 /* RandomObjectFactory.h */,
+				18C8C2DB17DDC3FB006A7EF5 /* RandomObjectFactory.m */,
 				18C8C2B717DDBA23006A7EF5 /* MainStoryboard.storyboard */,
 				18C8C2BA17DDBA23006A7EF5 /* ViewController.h */,
 				18C8C2BB17DDBA23006A7EF5 /* ViewController.m */,
@@ -273,6 +279,7 @@
 				18C8C2AC17DDBA23006A7EF5 /* main.m in Sources */,
 				18C8C2B017DDBA23006A7EF5 /* AppDelegate.m in Sources */,
 				18C8C2BC17DDBA23006A7EF5 /* ViewController.m in Sources */,
+				18C8C2DC17DDC3FB006A7EF5 /* RandomObjectFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18C8C2D117DDBA23006A7EF5 /* Assignment2Tests.m in Sources */,
+				18C8C2DD17DDC3FB006A7EF5 /* RandomObjectFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,4 +10,6 @@
 
 @interface ViewController : UIViewController
 
+-(IBAction)pressMe:(id)sender;
+
 @end
